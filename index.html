@@ -4,24 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>cv</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 </head>
 <body>
     <div class="aside-wrapper">
-      <div class="aside-content">
-          <div class="aside-content__aside1">
-              <div class="aside-content__profile-photo"></div>
-                <h1>
-                    Михальков Станислав
-                </h1>
-                <h3>
-                    Веб разработчик
-                </h3>
+        <div class="aside-content">
+            <div class="aside-content__aside1">
+                <div class="aside-content__profile-photo"></div>
+                <div class="aside-content__profile-description">
+                    <h1>
+                        Михальков Станислав
+                    </h1>
+                    <h3>
+                        Веб-разработчик
+                    </h3>
+                </div>
             </div>
             <div class="aside2">
                 <div class="aside2__aboutMe">
@@ -47,7 +48,7 @@
                         <li>
                             <div class="git">
                                 <a href="https://github.com/stasmihalkv">
-                                    <img src="css/GitHub-Mark.png" alt="">github.com/stasmihalkv
+                                    <img src="css/GitHubMark.png" alt="">github.com/stasmihalkv
                                 </a>
                             </div>
                         </li>
@@ -63,7 +64,8 @@
                         <li><i class="fab fa-css3-alt fa-2x"></i> Css3</li>
                         <li><i class="fab fa-less fa-2x"></i>Less</li>
                         <li><i class="fab fa-js fa-2x"></i>Javascript</li>
-                        <li><i class="fas fa-bold fa-2x"></i>Bootstrap 4</li>
+			<li><i class="fab fa-react fa-2x"></i>React.js</li>
+                        <li><i class="fab fa-npm fa-2x"></i></i>Npm</li>
                         <li><i class="fas fa-mobile-alt fa-2x"></i>Адаптивная верстка</li>
                         <li><i class="fab fa-wordpress-simple fa-2x"></i>CMS WordPress</li>
                     </ul>
@@ -73,10 +75,8 @@
                          <img src="css/icon_languages.png" alt="" class="aside2_icon">Языки :
                     </h3>
                     <ul class="aside2__nav-block">
-                        <div class="main-block-description">
                             <img src="css/russian.png" alt="" class="russian_lang">
                             <img src="css/english.png" alt=""class="english_lang">
-                        </div>
                     </ul>
                 </div>
                 
@@ -85,45 +85,109 @@
     </div>
         <div class="main-wrapper">
             <div class="main_content">
-                <i class="fas fa-moon fa-4x changeBgIcon"></i>
+                <i class="fas fa-moon fa-2x changeBgIcon"></i>
+
+
+                <div class="main-block">
+                    <h2>
+                        <img src="css/icon_work.png" class="main_icon">
+                        Образцы работ
+                    </h2>
+                    <div class="main-block-description">
+                        <div class="main-block__projects-grid">
+                            <div class="main-block__projects-item">
+                                <div class="projects-item__description">
+                                    <span>Simple task app,
+                                         written in react.js</span>    
+                                </div>   
+                                <a href="https://simple-react-tasklist.netlify.app">
+                                    <img src="css/port1.png" alt="">
+                                </a>
+                            </div>
+                            <div class="main-block__projects-item">
+                                <a href="https://stasmihalkv.github.io/Calc-on-vanilla-JS/">
+                                    <img src="css/port6.jpg" alt="">
+                                </a>
+                                <div class="projects-item__description">
+                                    <span>Calc, written in vanilla js</span>    
+                                </div> 
+                            </div>
+                            <div class="main-block__projects-item">
+                                <a href="https://testdjstore.imfast.io/">
+                                    <img src="css/port8.jpg" alt="">
+                                </a>
+                                <div class="projects-item__description">
+                                    <span>Adaptive layout, LESS, Js, Mobile ver.</span>    
+                                </div> 
+                            </div> 
+                            <div class="main-block__projects-item">
+                                <a href="https://neptun.imfast.io/">
+                                    <img src="css/port4.png" alt="">
+                                </a>
+                                <div class="projects-item__description">
+                                    <span>Adaptive layout, LESS, Js, Mobile ver.</span>    
+                                </div> 
+                            </div>  
+                            <div class="main-block__projects-item" >
+                                <a href="https://stasmihalkv.github.io/psyho-help/">
+                                    <img src="css/port7.jpg" alt="">
+                                </a>
+                                <div class="projects-item__description">
+                                    <span>Adaptive layout, LESS, Jquery</span>    
+                                </div> 
+                            </div>
+                            <div class="main-block__projects-item" >
+                                <a href="https://portfolio-3-giantlandingpage.imfast.io/">
+                                    <img src="css/port3.png" alt="">
+                                </a>
+                                <div class="projects-item__description">
+                                    <span>Landing page, Adaptive layout, LESS, Js</span>    
+                                </div> 
+                            </div>
+                            <div class="main-block__projects-item">
+                                <a href="https://portfolio-2-mercury.imfast.io/">
+                                    <img src="css/port2.png" alt="">
+                                </a>
+                            </div>
+                            <div class="main-block__projects-item">
+                                <a href="https://stasmihalkv.github.io/nordglass/">
+                                    <img src="css/port5.png" alt="">
+                                </a>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+
                 <div class="main-block">
                     <h2>
                         <img src="css/icon_education.png" class="main_icon">
                         Образование
                     </h2>
-                    <div class="main-block-description">
-                        <h3>
-                            Бакалавриат
-                        </h3>
-                        <div class="main-block__date-item">
-                            2013 - 2017
+                    <div class="main-block__degree">
+                        <div class="main-block-description">
+                            <h3>
+                                Бакалавриат
+                            </h3>
+                            <div class="main-block__date-item">
+                                2013 - 2017
+                            </div>
                         </div>
                     </div>
-                   <div class="main-block__text-item">
+                    
+                    <div class="main-block__degree">
+                        <div class="main-block-description">
+                            <h3>
+                                Магистратура
+                            </h3>
+                            <div class="main-block__date-item">
+                                2017 - 2019
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-block__text-item">
                         <p>
                             СпбГУТ им. проф. М.А. Бонч-Бруевича
                         </p>
-                        <br>
-                        <p>
-                            Инфокоммуникационные технологии и системы связи
-                        </p>
-                        
-                    </div>
-                    <br>
-                    <br>
-                    <div class="main-block-description">
-                        <h3>
-                            Магистратура
-                        </h3>
-                        <div class="main-block__date-item">
-                            2017 - 2019
-                        </div>
-                    </div>
-                   <div class="main-block__text-item">
-                        <p>
-                            СпбГУТ им. проф. М.А. Бонч-Бруевича
-                        </p>
-                        <br>
                         <p>
                             Инфокоммуникационные технологии и системы связи
                         </p>
@@ -148,53 +212,11 @@
                         </p>
                     </div>
                 </div>
-                <div class="main-block">
-                    <h2>
-                        <img src="css/icon_work.png" class="main_icon">
-                        Образцы работ
-                    </h2>
-                    <div class="main-block-description">
-                        <div class="main-block__projects-grid">
-                            <div class="main-block__projects-item">
-                                <a href="https://stasmihalkv.github.io/toDO/">
-                                    <img src="/css/port1.png" alt="">
-                                </a>
-                            </div>
-                            <div class="main-block__projects-item">
-                                <a href="https://calcvanillajs.imfast.io/">
-                                    <img src="/css/port6.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="main-block__projects-item">
-                                <a href="https://neptun.imfast.io/">
-                                    <img src="css/port4.png" alt="">
-                                </a>
-                            </div>  
-                            <div class="main-block__projects-item" >
-                                <a href="https://stasmihalkv.github.io/psyho-help/">
-                                    <img src="css/port7.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="main-block__projects-item" >
-                                <a href="https://portfolio-3-giantlandingpage.imfast.io/">
-                                    <img src="css/port3.png" alt="">
-                                </a>
-                            </div>
-                            <div class="main-block__projects-item">
-                                <a href="https://portfolio-2-mercury.imfast.io/">
-                                    <img src="css/port2.png" alt="">
-                                </a>
-                            </div>
-                            <div class="main-block__projects-item">
-                                <a href="https://stasmihalkv.github.io/nordglass/">
-                                    <img src="css/port5.png" alt="">
-                                </a>
-                            </div>  
-                        </div>
-                    </div>
-                </div>
+
+
             </div>
         </div>
-
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
